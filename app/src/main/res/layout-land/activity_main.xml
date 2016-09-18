@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#0e2e26">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel2"
+        android:textColor="#29e18c"
+        android:layout_below="@+id/lineLabel1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent1"
+        android:textColor="#29e18c"
+        android:layout_marginLeft="77dp"
+        android:layout_marginStart="77dp"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_alignTop="@+id/lineLabel1"
+        android:layout_toRightOf="@+id/lineLabel1"
+        android:layout_toEndOf="@+id/lineLabel1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent2"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineContent1"
+        android:layout_alignLeft="@+id/lineContent1"
+        android:layout_alignStart="@+id/lineContent1"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent3"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineContent2"
+        android:layout_alignLeft="@+id/lineContent2"
+        android:layout_alignStart="@+id/lineContent2"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent4"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineContent3"
+        android:layout_alignLeft="@+id/lineContent3"
+        android:layout_alignStart="@+id/lineContent3"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent5"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineContent4"
+        android:layout_alignLeft="@+id/lineContent4"
+        android:layout_alignStart="@+id/lineContent4"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent6"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineContent5"
+        android:layout_alignLeft="@+id/lineContent5"
+        android:layout_alignStart="@+id/lineContent5"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent7"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineContent6"
+        android:layout_alignLeft="@+id/lineContent6"
+        android:layout_alignStart="@+id/lineContent6"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent9"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineContent8"
+        android:layout_alignLeft="@+id/lineContent8"
+        android:layout_alignStart="@+id/lineContent8"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent8"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineContent7"
+        android:layout_alignLeft="@+id/lineContent7"
+        android:layout_alignStart="@+id/lineContent7"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent10"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent9"
+        android:layout_alignLeft="@+id/lineContent9"
+        android:layout_alignStart="@+id/lineContent9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent11"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent10"
+        android:layout_alignLeft="@+id/lineContent10"
+        android:layout_alignStart="@+id/lineContent10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent12"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent11"
+        android:layout_alignLeft="@+id/lineContent11"
+        android:layout_alignStart="@+id/lineContent11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent13"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent12"
+        android:layout_alignLeft="@+id/lineContent12"
+        android:layout_alignStart="@+id/lineContent12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent14"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent13"
+        android:layout_alignLeft="@+id/lineContent13"
+        android:layout_alignStart="@+id/lineContent13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent15"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent14"
+        android:layout_alignLeft="@+id/lineContent14"
+        android:layout_alignStart="@+id/lineContent14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent16"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent15"
+        android:layout_alignLeft="@+id/lineContent15"
+        android:layout_alignStart="@+id/lineContent15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent17"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent16"
+        android:layout_alignLeft="@+id/lineContent16"
+        android:layout_alignStart="@+id/lineContent16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel3"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel4"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineContent3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel5"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineContent4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel6"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineContent5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel7"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_alignTop="@+id/lineContent7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel8"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel9"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_alignTop="@+id/lineContent9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel10"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_alignTop="@+id/lineContent10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel11"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel12"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_alignTop="@+id/lineContent12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel13"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_alignTop="@+id/lineContent13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel14"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel15"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_alignTop="@+id/lineContent15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel16"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_alignTop="@+id/lineContent16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel17"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_alignTop="@+id/lineContent17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel18"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_above="@+id/lineContent19"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel19"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel18"
+        android:layout_alignLeft="@+id/lineLabel18"
+        android:layout_alignStart="@+id/lineLabel18" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel20"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel19"
+        android:layout_alignLeft="@+id/lineLabel19"
+        android:layout_alignStart="@+id/lineLabel19" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel21"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel20"
+        android:layout_alignLeft="@+id/lineLabel20"
+        android:layout_alignStart="@+id/lineLabel20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel22"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel21"
+        android:layout_alignLeft="@+id/lineLabel21"
+        android:layout_alignStart="@+id/lineLabel21" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel23"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel22"
+        android:layout_alignLeft="@+id/lineLabel22"
+        android:layout_alignStart="@+id/lineLabel22" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel24"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel23"
+        android:layout_alignLeft="@+id/lineLabel23"
+        android:layout_alignStart="@+id/lineLabel23" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel25"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel24"
+        android:layout_alignLeft="@+id/lineLabel24"
+        android:layout_alignStart="@+id/lineLabel24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel26"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel25"
+        android:layout_alignLeft="@+id/lineLabel25"
+        android:layout_alignStart="@+id/lineLabel25" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel27"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel26"
+        android:layout_alignLeft="@+id/lineLabel26"
+        android:layout_alignStart="@+id/lineLabel26" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel28"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel27"
+        android:layout_alignLeft="@+id/lineLabel27"
+        android:layout_alignStart="@+id/lineLabel27" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel29"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel28"
+        android:layout_alignLeft="@+id/lineLabel28"
+        android:layout_alignStart="@+id/lineLabel28" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel30"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel29"
+        android:layout_alignLeft="@+id/lineLabel29"
+        android:layout_alignStart="@+id/lineLabel29" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel31"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel30"
+        android:layout_alignLeft="@+id/lineLabel30"
+        android:layout_alignStart="@+id/lineLabel30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel32"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel31"
+        android:layout_alignLeft="@+id/lineLabel31"
+        android:layout_alignStart="@+id/lineLabel31" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel33"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel32"
+        android:layout_alignLeft="@+id/lineLabel32"
+        android:layout_alignStart="@+id/lineLabel32" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineLabel34"
+        android:textColor="#29e18c"
+        android:textIsSelectable="false"
+        android:textSize="11dp"
+        android:layout_below="@+id/lineLabel33"
+        android:layout_alignLeft="@+id/lineLabel33"
+        android:layout_alignStart="@+id/lineLabel33" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent18"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_alignBottom="@+id/selectedText"
+        android:layout_toRightOf="@+id/lineLabel18"
+        android:layout_toEndOf="@+id/lineLabel18"
+        android:layout_marginLeft="78dp"
+        android:layout_marginStart="78dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent19"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent18"
+        android:layout_alignLeft="@+id/lineContent18"
+        android:layout_alignStart="@+id/lineContent18" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent20"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_alignTop="@+id/lineLabel20"
+        android:layout_alignLeft="@+id/lineContent19"
+        android:layout_alignStart="@+id/lineContent19" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent21"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent20"
+        android:layout_alignLeft="@+id/lineContent20"
+        android:layout_alignStart="@+id/lineContent20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent22"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent21"
+        android:layout_alignLeft="@+id/lineContent21"
+        android:layout_alignStart="@+id/lineContent21" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent23"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent22"
+        android:layout_alignLeft="@+id/lineContent22"
+        android:layout_alignStart="@+id/lineContent22" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent24"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent23"
+        android:layout_alignLeft="@+id/lineContent23"
+        android:layout_alignStart="@+id/lineContent23" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent25"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent24"
+        android:layout_alignLeft="@+id/lineContent24"
+        android:layout_alignStart="@+id/lineContent24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent26"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent25"
+        android:layout_alignLeft="@+id/lineContent25"
+        android:layout_alignStart="@+id/lineContent25" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent27"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent26"
+        android:layout_alignLeft="@+id/lineContent26"
+        android:layout_alignStart="@+id/lineContent26" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent28"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_alignLeft="@+id/lineContent27"
+        android:layout_alignStart="@+id/lineContent27"
+        android:layout_below="@+id/lineContent27" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent29"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/lineContent28"
+        android:layout_alignStart="@+id/lineContent28"
+        android:layout_below="@+id/lineContent28" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent30"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent29"
+        android:layout_alignLeft="@+id/lineContent29" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent31"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent30"
+        android:layout_alignLeft="@+id/lineContent30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent32"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent31"
+        android:layout_alignLeft="@+id/lineContent31"
+        android:layout_alignStart="@+id/lineContent31" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent33"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent32"
+        android:layout_alignLeft="@+id/lineContent32"
+        android:layout_alignStart="@+id/lineContent32" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lineContent34"
+        android:textColor="#29e18c"
+        android:textSize="11dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/lineContent33"
+        android:layout_alignLeft="@+id/lineContent33"
+        android:layout_alignStart="@+id/lineContent33" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/selectedText"
+        android:textColor="#29e18c"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dPadRight"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/d_pad_right"
+        android:background="@android:color/transparent"
+        android:onClick="onRightButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dPadDown"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/dPadRight"
+        android:layout_toStartOf="@+id/dPadRight"
+        android:src="@drawable/d_pad_down"
+        android:background="@android:color/transparent"
+        android:onClick="onDownButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dPadLeft"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/dPadDown"
+        android:layout_toStartOf="@+id/dPadDown"
+        android:src="@drawable/d_pad_left"
+        android:background="@android:color/transparent"
+        android:onClick="onLeftButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dPadUp"
+        android:src="@drawable/d_pad_up"
+        android:background="@android:color/transparent"
+        android:onClick="onUpButton"
+        android:layout_above="@+id/dPadRight"
+        android:layout_alignLeft="@+id/dPadDown"
+        android:layout_alignStart="@+id/dPadDown" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select"
+        android:id="@+id/selectItem"
+        android:background="#044100"
+        android:textColor="#29e18c"
+        android:layout_alignBottom="@+id/lineContent26"
+        android:layout_toRightOf="@+id/dPadUp"
+        android:layout_toEndOf="@+id/dPadUp"
+        android:textSize="12dp"
+        android:onClick="onSelectItem" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/amountCorrect"
+        android:layout_alignBottom="@+id/lineContent21"
+        android:layout_alignLeft="@+id/dPadUp"
+        android:layout_alignStart="@+id/dPadUp"
+        android:textColor="#29e18c" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="4/4"
+        android:id="@+id/amountOfTries"
+        android:textColor="#29e18c"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/lineContent29"
+        android:layout_alignRight="@+id/selectItem"
+        android:layout_alignEnd="@+id/selectItem" />
+
+</RelativeLayout>
